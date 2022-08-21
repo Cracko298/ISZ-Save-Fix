@@ -112,7 +112,7 @@ int main(){
 
 	
 	//Window
-	hWnd = CreateWindow("CPPWINDOWZT", "ZTool", WS_OVERLAPPEDWINDOW | WS_VISIBLE, CW_USEDEFAULT, CW_USEDEFAULT, 540, 250, 0, 0, hInstance, 0);
+	hWnd = CreateWindow("CPPWINDOWZT", "ZTool", WS_OVERLAPPED| WS_SYSMENU |WS_VISIBLE, CW_USEDEFAULT, CW_USEDEFAULT, 540, 250, 0, 0, hInstance, 0);
 
 	/*Text fields*/
 	TX1 = CreateWindow("STATIC", "Please select a Save-Slot to continue.", WS_VISIBLE | WS_CHILD | NULL, 250, 50, 260, 150, hWnd, NULL, hInstance, NULL);
