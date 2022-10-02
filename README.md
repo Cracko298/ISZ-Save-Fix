@@ -1,5 +1,17 @@
 # Ice-Station-Z-Save-Fix
-This Application fixes your Crash in ice station Z(if its corrupted). 
+This Application fixes your Crash in ice station Z(if its corrupted).
+ 
+This Application can load .Zplg files to make your own Save Fix.
+how do i make a .Zplg?
+
+Example:
+CREATOR 			TheRealYunix
+SEEK 				0
+CRASH_VALUE_MIN		0
+CRASH_VALUE_MAX		2
+NEW_VALUE 			1
+NOTE 			= This Plugin Fixes the OpenByte Error
+
 
 # How to use?
 Place the exported save slots (Data0, Data1, Data2) in the same directory as the tool.
