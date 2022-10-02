@@ -12,6 +12,9 @@ CRASH_VALUE_MAX		2
 NEW_VALUE 			1
 NOTE 			= This Plugin Fixes the OpenByte Error
 
+![image](https://user-images.githubusercontent.com/97799691/193469842-3ce74aec-4430-4783-aad0-df1f592b980b.png)
+
+
 
 # How to use?
 Place the exported save slots (Data0, Data1, Data2) in the same directory as the tool.
