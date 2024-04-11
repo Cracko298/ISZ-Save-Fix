@@ -1,19 +1,41 @@
 # Ice-Station-Z-Save-Fix
-This Application fixes your Crash in ice station Z(if its corrupted).
- 
-This Application can load .Zplg files to make your own Save Fix.
-how do i make a .Zplg?
+- An Application for ISZ (Ice Station Z) that Attempts to Fixes your ISZ Data0, Data1, Data2 Corrupted.
 
-Example:
-CREATOR 			TheRealYunix
-SEEK 				0
-CRASH_VALUE_MIN		0
-CRASH_VALUE_MAX		2
-NEW_VALUE 			1
-NOTE 			= This Plugin Fixes the OpenByte Error
+## Custom Plugin Formats!
+```
+Name:         Format:                Extension:
+Zombie        Text Plugin Format     *.Zplg  
+Ice Station   Text Plugin Format     *.ISplg
+Grey Base     Binary Plugin Format   *.GBplg
+```
 
-![image](https://user-images.githubusercontent.com/97799691/193469842-3ce74aec-4430-4783-aad0-df1f592b980b.png)
+## *.Zplg Plugin Example:
+- *.Zplg Support! .Zplg has been revamped completely! Allowing for extremely easy writing of BugFix Plugins.
+```
+CREATOR = TheRealYunix
+GOTO = 32
+CRASH_RANGE_MIN = 0
+CRASH_RANGE_MAX = 100
+CHANGE_VALUE = 9999
+NOTE = Changes Health to 9999
+```
+## *.ISplg Plugin Example:
+- *.ISplg Support! A plugin with some security Features to Protect your Work, along with some improvements to the .Zplg Format.
+```
+BUFFER = 4
+CREATOR = Cracko298
+GOTO = s32, s36, s40, s44
+CRASH_RANGE_MIN = e0
+CRASH_RANGE_MAX = s100, s102, a104
+CHANGE_VALUE = e9999
+NOTE = Changes All Stats to 9999.
+```
+## *.GBplg Plugin Example:
+- *.GBplg Support! A binary plugin format that makes it very space efficient, it has the same issue as .Zplg However, only allowing Modification of a Singlular Byte.
 
+```
+
+```
 
 
 # How to use?
