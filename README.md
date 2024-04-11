@@ -43,7 +43,7 @@ NOTE = Changes All Stats to 9999.
 - Doesn't support notes, only Creator/Developer Name.
 ```
 43 72 61 63 6B 6F 32 39 38 00 00 00 00 20 00 00 00 64 00 0F 27
-^ Name                                 ^Byte ^     ^     ^CHANGE_VALUE
+^Name                                  ^Byte ^     ^     ^CHANGE_VALUE
                                              ^     ^
                                              ^CRASH_RANGE_MIN
                                                    ^CRASH_RANGE_MAX
